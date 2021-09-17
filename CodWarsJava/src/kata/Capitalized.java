@@ -9,7 +9,7 @@ public class Capitalized {
         String[] split = str.replaceAll("\\s+"," ").trim().split(" ");
         String result=""; 
         for(String a : split){
-          result +=  a.toString().substring(0,1).toUpperCase() + a.substring(1);
+          result +=  a.substring(0,1).toUpperCase() + a.substring(1);
              
         }
 
